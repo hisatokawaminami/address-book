@@ -1,0 +1,12 @@
+#submittedInfo {
+  display: none;
+}
+body {
+  background-color: lightblue;
+}
+
+
+.mid-col {
+  color: blue;
+  text-decoration: underline;
+}

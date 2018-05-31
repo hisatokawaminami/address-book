@@ -6,10 +6,84 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Address Book</title>
   </head>
-  <body>
-    
+  <body class="container-fluid">
+    <h1>Address Book</h1>
+      <div class="row">
+        <div class="col-md-4">
+<!-- boxes to enter info -->
+          <form id="formOne">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input id="firstName" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input id="lastName" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="streetAddress">Street Address</label>
+              <input id="streetAddress" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="city">City</label>
+              <input id="city" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="state">State</label>
+              <input id="state" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="zipCode">Zip code</label>
+              <input id="zipCode" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input id="phone" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" class="form-control" type="text">
+            </div>
+<!-- boxes to enter info -->
 
-  </body>
-</html>
+<!-- submitt button -->
+            <button type="submit" class="btn">SAVE</button>
+          </form>
+<!-- submitt button -->
+          </div>
+
+<!-- MID COLUMN -->
+          <div class="col-md-4">
+          <body >
+          <h2>Name</h2>
+          <ul class="mid-col">
+          </ul>
+
+
+          <!-- <p><span class="firstName"> </span> <span class="lastName"></span></p></br></br> -->
+          </body>
+          </div>
+<!-- MID COLUMN -->
+
+<!-- RIGHT COLUMN -->
+          <div class="col-md-4">
+            <div id="submittedInfo">
+              <div class="row well">
+              <p>
+              <span class="firstName"> </span> <span class="lastName"></span></br></br>
+              <span class="streetAddress"></span></br>
+              <span class="city"></span> ,<span class="state"></span> <span class="zipCode"></span></br>
+              <span class="phone"></span></br>
+              <span class="email"></span>
+              </p>
+
+            </div>
+            </div>
+          </div>
+          <!-- RIGHT COLUMN -->
+
+      </div>
+    </body>
+    </html>
